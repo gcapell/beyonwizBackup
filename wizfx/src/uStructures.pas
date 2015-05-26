@@ -53,11 +53,18 @@ type
   PWizFileInfo = ^TWizFileInfo;
 
   TWizFileHeader = packed record
-    hidden: array [0 .. 5] of Word;
+    header: Word;
+    ver: Word;
+
+    vidPid: Word;
+    audPid: Word;
+    pcrPid: Word;
+    pmtPid: Word;
+
     lock: ByteBool;
     full: ByteBool;
 	  inRec: ByteBool;
-	  Unused: ByteBool;
+	  xxx: ByteBool; // 16
   end;
   PWizFileHeader = ^TWizFileHeader;
 
