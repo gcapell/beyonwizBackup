@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+  <specVersion>
+    <major>1</major>
+    <minor>0</minor>
+  </specVersion>
+  <device>
+    <deviceType>urn:wizpnp-upnp-org:device:pvrtvdevice:1</deviceType>
+    <friendlyName>beyonwiz</friendlyName>
+    <manufacturer>Beyonwiz</manufacturer>
+    <manufacturerURL>http://www.beyonwiz.com</manufacturerURL>
+    <modelDescription>Beyonwiz PVR HTTP Streaming Device 0.9</modelDescription>
+    <modelName>PVR_Streaming</modelName>
+    <modelNumber>1.0</modelNumber>
+    <modelURL>http://www.beyonwiz.com/</modelURL>
+    <serialNumber>00191E008B92</serialNumber>
+    <UDN>uuid:wizpnp-PVR_Streaming-1_0-00191E008B92</UDN>
+    <UPC>123456788</UPC>
+    <serviceList>
+      <service>
+        <serviceType>urn:wizpnp-upnp-org:service:http_streaming:1</serviceType>
+        <serviceId>urn:upnp-org:serviceId:tvpicture1</serviceId>
+        <controlURL>/upnp/control/tvpicture1</controlURL>
+        <eventSubURL>/upnp/event/tvpicture1</eventSubURL>
+        <SCPDURL>/tvpictureSCPD.xml</SCPDURL>
+      </service>
+    </serviceList>
+   <presentationURL>/index.html</presentationURL>
+</device>
+</root>
