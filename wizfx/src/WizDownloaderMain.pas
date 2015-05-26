@@ -169,7 +169,7 @@ var
 
 implementation
 
-uses StrUtils, FielList, Functions, Download, AddDevice,
+uses StrUtils, FileList, Functions, Download, AddDevice,
   DateUtils, Math, ShlObj, Preference, Favorites, Process, About;
 
 

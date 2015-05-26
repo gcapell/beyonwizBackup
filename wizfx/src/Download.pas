@@ -71,7 +71,7 @@ var
 
 implementation
 
-uses Functions, FielList, WizDownloaderMain, WarningFileSize, Math;
+uses Functions, FileList, WizDownloaderMain, WarningFileSize, Math;
 
 
 
