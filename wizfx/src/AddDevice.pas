@@ -51,7 +51,7 @@ var
 begin
 
     New(URLObject);
-    URLObject.DeviceType := deUPnP; //Deive NameÀ» °¡Á®¿À±â À§ÇØ UPnP·Î ¼³Á¤ÇÑ´Ù.
+    URLObject.DeviceType := deUPnP; //Deive Nameï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ UPnPï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ñ´ï¿½.
     URLObject.URL := format('http://%s:%d/%s',[frmAddDevice.edIPAddress.Text, frmAddDevice.sePort.Value, 'tvdevicedesc.xml']);
     URLObject.Cnt := 0;
     tmpDevice.DescURL := URLObject.URL;
