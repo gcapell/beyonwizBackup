@@ -1,0 +1,31 @@
+* Company
+  Beyonwiz Co. Ltd.,
+  3F Daechang Bldg, 8-2 Sunaedong, Bundang, 463-825, Korea.
+
+* Description
+  This program is designed for downloading recorded files from your Beyonwiz PVR
+  to your PC. 
+
+* Caution
+  - This program is freeware.
+  - Any adaptation and/or re-distribution of this program is/are allowed.
+  - Redeveloped source codes based on this program are at the redeveloper's
+    judgment as to whether the source code remains open or not.
+  - This program is distributed for useful purposes, but it doesn't guarantee
+    any implied warranty of suitability of which it may be used for certain
+    special purpose or for sale.
+  - Any illegal act and/or damage to 3rd party through the open source of this
+    program is entirely prohibited and Beyonwiz accepts no responsibility for it. 
+  - Any act damaging Beyonwiz through the open source of this program may hold
+    you liable for the damage.
+
+* Copyright
+  - The Soft Gems¡¯ Virtual Tree View ((http://www.soft-gems.net/index.php?option
+    =com_content&task=view&id=12&Itemid=33) component package which used in this
+    program conforms to MPL1.1 or LGPL.
+  - JVCL (http://www.mozilla.org/MPL/MPL-1.1.html) component package which used
+    in this program conforms to MPL1.1.
+
+* Patent
+  None
+
