@@ -4,9 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 	"fmt"
-	"io/ioutil"
 	"time"
-
 	"log"
 )
 
@@ -38,7 +36,6 @@ type TSPoint struct {
 	_ LongWord
 	Offset Offset
 }
-
 var mjdEpoch = time.Date(1858, 11,17,0,0,0,0, time.UTC)
 func mjd(n int) time.Time {
 	return mjdEpoch.AddDate(0,0,n)
@@ -49,13 +46,9 @@ func (t TSPoint) String() string {
 		string(t.Svc[:]), string(t.Evt[:]), mjd(int(t.MJD)), t.Start, t.Last, t.Sec, t.Offset)
 }
 
-func main() {
-	headerBytes, err := ioutil.ReadFile("testdata/header")
-	if err != nil {
-		log.Fatal(err)
-	}
+func unpackHeader(b []byte) {
 	order := binary.LittleEndian
-	r := bytes.NewReader(headerBytes)
+	r := bytes.NewReader(b)
 	before := r.Len()
 	var fh FileHeader
 	if err := binary.Read(r, order, &fh); err != nil {
@@ -71,6 +64,4 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Printf("%s\n", p)
-	
-	
 }
